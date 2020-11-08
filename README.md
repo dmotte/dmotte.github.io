@@ -1,1 +1,3 @@
-This is my Github Pages website.
+# dmotte.github.io
+
+DMotte *Github Pages* website.

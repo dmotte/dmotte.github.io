@@ -1,3 +1,3 @@
 # dmotte.github.io
 
-DMotte *Github Pages* website.
+[DMotte *Github Pages* website](https://dmotte.github.io/).

@@ -1,3 +1,3 @@
 # dmotte.github.io
 
-[dmotte's _Github Pages_ website](https://dmotte.github.io/).
+&#x1F30D; **dmotte**'s _GitHub Pages_ [website](https://dmotte.github.io/).

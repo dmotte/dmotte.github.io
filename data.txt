@@ -27,7 +27,7 @@ dmotte
 https://github.com/dmotte
 []
 dmotte.github.io
-🌎 dmotte Github Pages website
+🌍 dmotte's GitHub Pages website
 https://dmotte.github.io/
 []
 docker-images

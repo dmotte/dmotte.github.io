@@ -3,6 +3,9 @@ name: main
 
 on:
   push: # All branches and tags
+  schedule:
+    # Runs automatically on the 27th of every month at 04:30 UTC
+    - cron: "30 04 27 * *"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -10,3 +13,8 @@ concurrency:
 jobs:
   job:
     uses: dmotte/misc/.github/workflows/cicd-with-script.yml@main
+    with:
+      script: >
+        MISC_SCRIPTS_DIR="$GITHUB_ACTION_PATH/../../scripts"
+        bash cicd.sh dmotte data.txt index.html
+        'List of all my projects.'

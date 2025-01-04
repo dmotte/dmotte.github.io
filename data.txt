@@ -1,0 +1,112 @@
+apycalc
+🐍 APY trend calculator with configurable Moving Average
+https://pypi.org/project/apycalc/
+["annual","apy","apycalc","average","calculator","command","csv","invest","moving","package","percent","percentage","pip","py","pypi","python","return","value","yearly","yield"]
+bnplay
+🔊 Brown Noise player
+https://dmotte.github.io/bnplay
+["brown","desktop","ffmpeg","noise","play","player","tray","web"]
+cashlog
+🐍 Cash flow tracker
+https://pypi.org/project/cashlog/
+["analysis","budget","budgeting","calculator","cash","csv","finance","flow","log","management","money","monitor","monitoring","package","py","python","statistics","track","tracker","tracking"]
+cronjobs
+⏱ Jobs that run periodically via GitHub Actions
+
+["actions","check","checks","clock","cron","cronjob","cronjobs","github","github-actions","job","jobs","monthly","periodic","schedule","script","scripts","task","watch","workflow"]
+desktainer
+🖥 Remote desktop in a container
+https://hub.docker.com/r/dmotte/desktainer
+["arm","browser","container","debian","desktainer","desktop","docker","docker-compose","http","lxde","novnc","remote","remote-desktop","supervisor","supervisord","vnc","webapp","websockify","x11","x11vnc"]
+desktainer-rootless
+🖥 Remote desktop in a container (rootless version)
+https://hub.docker.com/r/dmotte/desktainer-rootless
+["arm","browser","container","debian","desktainer","desktop","docker","docker-compose","http","lxde","no-root","novnc","remote","remote-desktop","rootless","vnc","webapp","websockify","x11","x11vnc"]
+dmotte
+🏠 GitHub profile README
+https://github.com/dmotte
+[]
+dmotte.github.io
+🌎 dmotte Github Pages website
+https://dmotte.github.io/
+[]
+docker-images
+🐳 Docker images that don't deserve a separate repo
+https://hub.docker.com/u/dmotte
+["actions","build","compose","container","containers","docker","docker-compose","docker-hub","docker-image","dockerfile","github","github-actions","image","images","workflow"]
+docker-portmap-client
+🐳 Docker image you can use to expose one or more TCP ports to the internet using an SSH tunnel
+https://hub.docker.com/r/dmotte/portmap-client
+["client","docker","docker-compose","docker-image","dockerfile","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","ssh","ssh-client","tcp","tunnel"]
+docker-portmap-server
+🐳 Docker image with an OpenSSH server that can be used for remote port forwarding only
+https://hub.docker.com/r/dmotte/portmap-server
+["docker","docker-compose","docker-image","dockerfile","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","server","ssh","ssh-server","sshd","tcp","tunnel"]
+docker-portmap-server-rootless
+🐳 Docker image that can be used for remote port forwarding (rootless version)
+https://hub.docker.com/r/dmotte/portmap-server-rootless
+["docker","docker-compose","docker-image","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","rootless","server","ssh","ssh-server","sshd","tcp","tunnel"]
+investats
+🐍 Investment statistics calculator
+https://pypi.org/project/investats/
+["analysis","analyzer","calculator","command","compute","csv","gain","invest","investats","investment","package","pip","py","pypi","python","return","statistic","statistics","value","yield"]
+jctlfmt
+🐍 Python Journalctl parsing and formatting library
+https://pypi.org/project/jctlfmt/
+["filtering","fmt","format","formatting","jctl","journal","journalctl","journald","log","logs","message","messages","msg","parsing","python","python-3","python3","systemd","systemd-journald","text"]
+misc
+🧰 Things that do not need a separate repo
+https://dmotte.github.io/misc/
+["actions","commands","config","examples","github","github-actions","knowledge","misc","miscellaneous","script","scripts","shared","snippet","snippets","stuff","things","useful","various","workflow","workflows"]
+msgbuf
+🦀 A standalone message buffer application
+
+["buf","buffer","cargo","cli","log","logs","message","message-buffer","msg","msg-buf","msgbuf","notification","notifications","notifier","notify","rust","send","telegram","text"]
+smartchg
+🐍 DCA-based asset exchange algorithm
+https://pypi.org/project/smartchg/
+["algorithm","apy","asset","averaging","calculator","change","command","csv","dca","exchange","invest","package","pip","pypi","python","return","smart","smartchg","value","yield"]
+svcbox
+🚀 Docker image with supervisord and sshd
+https://hub.docker.com/r/dmotte/svcbox
+["box","container","debian","docker","docker-compose","image","multiple","openssh","openssh-server","server","service","services","sshd","supervisor","supervisord","svc","svcbox"]
+svcbox-rootless
+🚀 Docker image with supervisord and sshd (rootless version)
+https://hub.docker.com/r/dmotte/svcbox-rootless
+["box","container","debian","docker","docker-compose","image","multiple","openssh","openssh-server","rootless","server","service","services","sshd","supervisor","supervisord","svc","svcbox"]
+ui24rsc
+🐍 Ui24R Snapshot Converter
+https://pypi.org/project/ui24rsc/
+["command","converter","diff","dots","dotted","dotted-format","full","json","mixer","package","pip","pypi","python","snapshot","soundcraft","structured","tree","ui24r","yaml","yml"]
+vagrant-ansiblebox
+📦 Debian Vagrant box with Ansible and Ansible Lint
+https://app.vagrantup.com/dmotte/boxes/ansiblebox
+["actions","ansible","automation","base","box","debian","geerlingguy","github","github-actions","pip","pip-3","pip3","playbook","pypi","python","python-3","python3","vagrant","virtualbox"]
+vagrant-dockerbox
+📦 Debian Vagrant box with Docker (and docker-compose)
+https://app.vagrantup.com/dmotte/boxes/dockerbox
+["actions","ansible","automation","base","box","compose","debian","docker","docker-compose","geerlingguy","github","github-actions","playbook","vagrant","virtualbox"]
+vagrant-k3sbox
+📦 Debian Vagrant box with K3s
+https://app.vagrantup.com/dmotte/boxes/k3sbox
+["actions","ansible","automation","base","box","container","debian","docker","github","github-actions","k3s","k8s","kubectl","kubernetes","pod","rancher","single-node","vagrant","virtualbox"]
+vagrant-podmanbox
+📦 Debian Vagrant box with Podman (and podman-compose)
+https://app.vagrantup.com/dmotte/boxes/podmanbox
+["actions","alvistack","ansible","automation","base","box","compose","debian","docker","docker-compose","github","github-actions","playbook","podman","podman-compose","vagrant","virtualbox"]
+vagrant-vagrantbox
+📦 Debian Vagrant box with Vagrant and VirtualBox for nested virtualization
+https://app.vagrantup.com/dmotte/boxes/vagrantbox
+["actions","amd-v","amdv","ansible","automation","base","box","debian","github","github-actions","inside","intel","nested","nested-virtualization","playbook","vagrant","virtualbox","virtualization","vt-x","vtx"]
+webauthn-proxy
+🐳 Customization of the quiq/webauthn_proxy Docker image
+https://hub.docker.com/r/dmotte/webauthn-proxy
+["auth","authentication","authn","browser","build","container","custom","docker","docker-compose","dockerhub","http","hub","image","login","middleware","proxy","quiq","reverse","webauthn","webauthn-proxy"]
+webmedia
+🎶 Collection of HTML5 media players / viewers
+
+["audio","drive","gdrive","google","html","html5","image","img","jpg","media","mp3","mp4","multimedia","music","photo","player","png","vid","video","viewer"]
+winautoclicker
+🖱 Simple Auto-Clicker CLI application for Windows, written in C++
+
+["auto","auto-clicker","autoclicker","c","c-plus-plus","cli","clicker","cpp","exe","interval","millis","milliseconds","mingw","portable","time","win","windows"]

@@ -7,15 +7,41 @@ set -e
 
 cd "$(dirname "$0")"
 
-readonly username=${1:?} out_txt=${2:?} out_html=${3:?} description=${4:-}
+readonly username=${1:?} out_txt=${2:?} out_html=${3:?} intro=${4:-}
+
+################################################################################
 
 data=$(bash "$MISC_SCRIPTS_DIR/github-get-all-repos.sh" "users/$username" \
     '.archived == false and .fork == false' \
     '.name, .description, .homepage, .topics')
 echo "$data" | tr -d '\r' > "$out_txt"
 
-# TODO
-: "$out_html" "$description"
+################################################################################
+
+:> "$out_html" # Empty file
+
+tee -a "$out_html" << EOF
+<h1>$username</h1>
+TODO first part
+EOF
+
+# TODO [ -n "$intro" ] && echo "$intro"
+
+while read -r name; do
+    read -r description
+    read -r homepage
+    read -r _topics
+
+    echo "TODO name: $name"
+    echo "TODO description: $description"
+    echo "TODO homepage: $homepage"
+done < "$out_txt" | tee -a "$out_html"
+
+tee -a "$out_html" << EOF
+TODO last part
+EOF
+
+################################################################################
 
 [ -z "$(git status -s)" ] || {
     echo 'There are some uncommitted changes' >&2

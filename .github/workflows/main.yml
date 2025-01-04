@@ -16,5 +16,4 @@ jobs:
     with:
       script: >
         MISC_SCRIPTS_DIR="$GITHUB_ACTION_PATH/../../scripts"
-        bash cicd.sh dmotte data.txt index.html
-        'List of all my projects.'
+        bash cicd.sh dmotte data.txt index.html 'List of all my projects.'

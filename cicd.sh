@@ -15,6 +15,7 @@ data=$(bash "$MISC_SCRIPTS_DIR/github-get-all-repos.sh" "users/$username" \
 echo "$data" | tr -d '\r' > "$out_txt"
 
 # TODO
+: "$out_html" "$description"
 
 [ -z "$(git status -s)" ] || {
     echo 'There are some uncommitted changes' >&2

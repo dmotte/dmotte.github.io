@@ -20,6 +20,8 @@ echo "$data" | tr -d '\r' > "$out_txt"
 
 :> "$out_html" # Empty file
 
+# TODO link to GH profile page
+
 tee -a "$out_html" << EOF
 <h1>$username</h1>
 TODO first part

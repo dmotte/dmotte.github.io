@@ -7,7 +7,7 @@ set -e
 
 cd "$(dirname "$0")"
 
-readonly username=${1:?} out_txt=${2:?} out_html=${3:?} intro=${4:-}
+readonly username=${1:?} out_txt=${2:?} out_html=${3:?}
 
 ################################################################################
 
@@ -24,8 +24,6 @@ tee -a "$out_html" << EOF
 <h1>$username</h1>
 TODO first part
 EOF
-
-# TODO [ -n "$intro" ] && echo "$intro"
 
 while read -r name; do
     read -r description

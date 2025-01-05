@@ -11,12 +11,16 @@ readonly username=${1:?} out_txt=${2:?} out_html=${3:?}
 
 ################################################################################
 
+echo "Generating $out_txt"
+
 data=$(bash "$MISC_SCRIPTS_DIR/github-get-all-repos.sh" "users/$username" \
     '.archived == false and .fork == false' \
     '.name, .description, .homepage, .topics')
 echo "$data" | tr -d '\r' > "$out_txt"
 
 ################################################################################
+
+echo "Generating $out_html"
 
 :> "$out_html" # Empty file
 
@@ -123,6 +127,10 @@ tee -a "$out_html" << EOF
   </body>
 </html>
 EOF
+
+echo "Formatting $out_html"
+
+npx prettier -w index.html
 
 ################################################################################
 

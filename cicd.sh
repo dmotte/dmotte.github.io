@@ -66,28 +66,38 @@ EOF
 while read -r name; do
     read -r description
     read -r homepage
-    read -r _topics
+    read -r topics
+
+    emoji=$(echo "$description" | cut -d' ' -f1)
+    desc_without_emoji=$(echo "$description" | cut -d' ' -f2-)
+
+    footer_items=()
+    if [ -n "$homepage" ]; then
+        footer_items+=("<a href=\"$homepage\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
+    fi
+    footer_items+=("<a href=\"https://github.com/$username/$name\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
+
+    # We don't actually use the topics in the HTML, but it's good to have them
+    # stored in the text file
+    : "$topics"
 
     echo '          <div class="cell">'
     echo '            <div class="card">'
     echo '              <div class="card-content">'
     echo '                <div class="content">'
     echo '                  <p class="title is-4">'
-    echo '                    &#x1F30D; docker-portmap-server-rootless'
+    echo "                    $emoji $name"
     echo '                  </p>'
     echo '                  <p>'
-    echo '                    Docker image that can be used for remote port forwarding'
-    echo '                    (rootless version)'
+    echo "                    $desc_without_emoji"
     echo '                  </p>'
     echo '                </div>'
     echo '              </div>'
     echo '              <footer class="card-footer">'
-    echo '                <a href="#" class="card-footer-item">&#x1F30D; Homepage</a>'
-    echo '                <a href="#" class="card-footer-item">&#x1F4C1; Repo</a>'
+    for i in "${footer_items[@]}"; do echo "                $i"; done
     echo '              </footer>'
     echo '            </div>'
     echo '          </div>'
-    break # TODO
 done < "$out_txt" | tee -a "$out_html"
 
 tee -a "$out_html" << EOF

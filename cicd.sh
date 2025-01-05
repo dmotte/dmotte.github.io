@@ -81,7 +81,7 @@ cat << EOF >> "$out_html"
           This is the list of all my <strong>projects</strong>:
         </div>
 
-        <div class="grid is-col-min-16 is-gap-3">
+        <div class="grid is-col-min-14 is-gap-3">
 EOF
 
 while read -r name; do

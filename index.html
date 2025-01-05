@@ -24,6 +24,17 @@
         --bulma-link-l: 50%;
       }
     </style>
+
+    <style type="text/css">
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .card-footer {
+        margin-top: auto;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,23 +46,504 @@
           This is the list of all my <strong>projects</strong>.
         </div>
 
-        <div class="grid is-col-min-12">
+        <div class="grid is-col-min-16 is-gap-3">
           <div class="cell">
             <div class="card">
               <div class="card-content">
                 <div class="content">
                   <p class="title is-4">
-                    &#x1F30D; docker-portmap-server-rootless
+                    🐍 apycalc
                   </p>
                   <p>
-                    Docker image that can be used for remote port forwarding
-                    (rootless version)
+                    APY trend calculator with configurable Moving Average
                   </p>
                 </div>
               </div>
               <footer class="card-footer">
-                <a href="#" class="card-footer-item">&#x1F30D; Homepage</a>
-                <a href="#" class="card-footer-item">&#x1F4C1; Repo</a>
+                <a href="https://pypi.org/project/apycalc/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/apycalc" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🔊 bnplay
+                  </p>
+                  <p>
+                    Brown Noise player
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://dmotte.github.io/bnplay" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/bnplay" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐍 cashlog
+                  </p>
+                  <p>
+                    Cash flow tracker
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://pypi.org/project/cashlog/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/cashlog" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    ⏱ cronjobs
+                  </p>
+                  <p>
+                    Jobs that run periodically via GitHub Actions
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://github.com/dmotte/cronjobs" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🖥 desktainer
+                  </p>
+                  <p>
+                    Remote desktop in a container
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/desktainer" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/desktainer" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🖥 desktainer-rootless
+                  </p>
+                  <p>
+                    Remote desktop in a container (rootless version)
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/desktainer-rootless" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/desktainer-rootless" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🏠 dmotte
+                  </p>
+                  <p>
+                    GitHub profile README
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://github.com/dmotte" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/dmotte" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🌍 dmotte.github.io
+                  </p>
+                  <p>
+                    dmotte's GitHub Pages website
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://dmotte.github.io/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/dmotte.github.io" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐳 docker-images
+                  </p>
+                  <p>
+                    Docker images that don't deserve a separate repo
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/u/dmotte" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/docker-images" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐳 docker-portmap-client
+                  </p>
+                  <p>
+                    Docker image you can use to expose one or more TCP ports to the internet using an SSH tunnel
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/portmap-client" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/docker-portmap-client" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐳 docker-portmap-server
+                  </p>
+                  <p>
+                    Docker image with an OpenSSH server that can be used for remote port forwarding only
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/portmap-server" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/docker-portmap-server" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐳 docker-portmap-server-rootless
+                  </p>
+                  <p>
+                    Docker image that can be used for remote port forwarding (rootless version)
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/portmap-server-rootless" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/docker-portmap-server-rootless" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐍 investats
+                  </p>
+                  <p>
+                    Investment statistics calculator
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://pypi.org/project/investats/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/investats" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐍 jctlfmt
+                  </p>
+                  <p>
+                    Python Journalctl parsing and formatting library
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://pypi.org/project/jctlfmt/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/jctlfmt" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🧰 misc
+                  </p>
+                  <p>
+                    Things that do not need a separate repo
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://dmotte.github.io/misc/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/misc" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🦀 msgbuf
+                  </p>
+                  <p>
+                    A standalone message buffer application
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://github.com/dmotte/msgbuf" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐍 smartchg
+                  </p>
+                  <p>
+                    DCA-based asset exchange algorithm
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://pypi.org/project/smartchg/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/smartchg" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🚀 svcbox
+                  </p>
+                  <p>
+                    Docker image with supervisord and sshd
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/svcbox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/svcbox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🚀 svcbox-rootless
+                  </p>
+                  <p>
+                    Docker image with supervisord and sshd (rootless version)
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/svcbox-rootless" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/svcbox-rootless" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐍 ui24rsc
+                  </p>
+                  <p>
+                    Ui24R Snapshot Converter
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://pypi.org/project/ui24rsc/" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/ui24rsc" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    📦 vagrant-ansiblebox
+                  </p>
+                  <p>
+                    Debian Vagrant box with Ansible and Ansible Lint
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://app.vagrantup.com/dmotte/boxes/ansiblebox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/vagrant-ansiblebox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    📦 vagrant-dockerbox
+                  </p>
+                  <p>
+                    Debian Vagrant box with Docker (and docker-compose)
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://app.vagrantup.com/dmotte/boxes/dockerbox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/vagrant-dockerbox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    📦 vagrant-k3sbox
+                  </p>
+                  <p>
+                    Debian Vagrant box with K3s
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://app.vagrantup.com/dmotte/boxes/k3sbox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/vagrant-k3sbox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    📦 vagrant-podmanbox
+                  </p>
+                  <p>
+                    Debian Vagrant box with Podman (and podman-compose)
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://app.vagrantup.com/dmotte/boxes/podmanbox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/vagrant-podmanbox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    📦 vagrant-vagrantbox
+                  </p>
+                  <p>
+                    Debian Vagrant box with Vagrant and VirtualBox for nested virtualization
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://app.vagrantup.com/dmotte/boxes/vagrantbox" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/vagrant-vagrantbox" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🐳 webauthn-proxy
+                  </p>
+                  <p>
+                    Customization of the quiq/webauthn_proxy Docker image
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://hub.docker.com/r/dmotte/webauthn-proxy" class="card-footer-item">&#x1F30D; Homepage</a>
+                <a href="https://github.com/dmotte/webauthn-proxy" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🎶 webmedia
+                  </p>
+                  <p>
+                    Collection of HTML5 media players / viewers
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://github.com/dmotte/webmedia" class="card-footer-item">&#x1F4C1; Repo</a>
+              </footer>
+            </div>
+          </div>
+          <div class="cell">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p class="title is-4">
+                    🖱 winautoclicker
+                  </p>
+                  <p>
+                    Simple Auto-Clicker CLI application for Windows, written in C++
+                  </p>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="https://github.com/dmotte/winautoclicker" class="card-footer-item">&#x1F4C1; Repo</a>
               </footer>
             </div>
           </div>

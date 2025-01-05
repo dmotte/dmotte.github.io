@@ -105,12 +105,8 @@ while read -r name; do
     echo '            <div class="card">'
     echo '              <div class="card-content">'
     echo '                <div class="content">'
-    echo '                  <p class="title is-4">'
-    echo "                    $emoji $name"
-    echo '                  </p>'
-    echo '                  <p>'
-    echo "                    $desc_without_emoji"
-    echo '                  </p>'
+    echo "                  <p class=\"title is-4\">$emoji $name</p>"
+    echo "                  <p>$desc_without_emoji</p>"
     echo '                </div>'
     echo '              </div>'
     echo '              <footer class="card-footer">'

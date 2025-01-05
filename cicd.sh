@@ -49,6 +49,17 @@ tee -a "$out_html" << EOF
         --bulma-link-l: 50%;
       }
     </style>
+
+    <style type="text/css">
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .card-footer {
+        margin-top: auto;
+      }
+    </style>
   </head>
 
   <body>
@@ -60,7 +71,7 @@ tee -a "$out_html" << EOF
           This is the list of all my <strong>projects</strong>.
         </div>
 
-        <div class="grid is-col-min-12">
+        <div class="grid is-col-min-16 is-gap-3">
 EOF
 
 while read -r name; do

@@ -93,10 +93,9 @@ while read -r name; do
     desc_without_emoji=$(echo "$description" | cut -d' ' -f2-)
 
     footer_items=()
-    if [ -n "$homepage" ]; then
-        footer_items+=("<a href=\"$homepage\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
-    fi
-    footer_items+=("<a href=\"https://github.com/$username/$name\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
+    [ -z "$homepage" ] ||
+        footer_items+=("<a href=\"$homepage\" target=\"_blank\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
+    footer_items+=("<a href=\"https://github.com/$username/$name\" target=\"_blank\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
 
     # We don't actually use the topics in the HTML, but it's good to have them
     # stored in the text file

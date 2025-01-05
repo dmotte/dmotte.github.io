@@ -24,7 +24,8 @@ echo "Generating $out_html"
 
 :> "$out_html" # Empty file
 
-tee -a "$out_html" << EOF
+# shellcheck disable=SC2129
+cat << EOF >> "$out_html"
 <!doctype html>
 <html>
   <head>
@@ -114,9 +115,9 @@ while read -r name; do
     echo '              </footer>'
     echo '            </div>'
     echo '          </div>'
-done < "$out_txt" | tee -a "$out_html"
+done < "$out_txt" >> "$out_html"
 
-tee -a "$out_html" << EOF
+cat << EOF >> "$out_html"
         </div>
       </div>
     </section>

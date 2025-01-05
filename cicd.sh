@@ -127,7 +127,7 @@ EOF
 
 echo "Formatting $out_html"
 
-npx prettier -w index.html
+npx prettier -w "$out_html"
 
 ################################################################################
 

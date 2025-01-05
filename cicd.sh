@@ -20,8 +20,6 @@ echo "$data" | tr -d '\r' > "$out_txt"
 
 :> "$out_html" # Empty file
 
-# TODO link to GH profile page
-
 tee -a "$out_html" << EOF
 <!doctype html>
 <html>
@@ -68,7 +66,14 @@ tee -a "$out_html" << EOF
         <h1 class="title">$username</h1>
 
         <div class="block">
-          This is the list of all my <strong>projects</strong>.
+          &#x1F3E0; My <strong>GitHub profile</strong> page:
+          <a href="https://github.com/$username" target="_blank">
+            <strong>github.com/$username</strong>
+          </a>
+        </div>
+
+        <div class="block">
+          This is the list of all my <strong>projects</strong>:
         </div>
 
         <div class="grid is-col-min-16 is-gap-3">

@@ -72,7 +72,7 @@ cat << EOF >> "$out_html"
 
         <div class="block">
           &#x1F3E0; My <strong>GitHub profile</strong> page:
-          <a href="https://github.com/$username" target="_blank">
+          <a href="https://github.com/$username">
             <strong>github.com/$username</strong>
           </a>
         </div>
@@ -94,8 +94,8 @@ while read -r name; do
 
     footer_items=()
     [ -z "$homepage" ] ||
-        footer_items+=("<a href=\"$homepage\" target=\"_blank\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
-    footer_items+=("<a href=\"https://github.com/$username/$name\" target=\"_blank\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
+        footer_items+=("<a href=\"$homepage\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
+    footer_items+=("<a href=\"https://github.com/$username/$name\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
 
     # We don't actually use the topics in the HTML, but it's good to have them
     # stored in the text file

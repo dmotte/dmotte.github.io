@@ -120,13 +120,12 @@ cat << EOF >> "$out_html"
         </div>
 
         <div class="block has-text-centered">
-          This page was <strong>automatically generated</strong> by
+          This page was <strong>automatically generated</strong> by a
           <a
             href="https://github.com/dmotte/dmotte.github.io/blob/main/cicd.sh"
             target="_blank"
-          >
-            <code>cicd.sh</code>
-          </a>
+            ><strong>custom script</strong></a
+          >.
         </div>
       </div>
     </section>

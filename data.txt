@@ -46,6 +46,10 @@ docker-portmap-server-rootless
 🐳 Docker image that can be used for remote port forwarding (rootless version)
 https://hub.docker.com/r/dmotte/portmap-server-rootless
 ["docker","docker-compose","docker-image","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","rootless","server","ssh","ssh-server","sshd","tcp","tunnel"]
+docker-xfwd
+🐳 Run graphical applications in a Docker container
+https://hub.docker.com/r/dmotte/xfwd
+["container","containerized","display","docker","forward","forwarding","graphical","gui","gui-application","podman","rootless","socat","socket","unix","unprivileged","x","x11","xauth","xauthority","xhost"]
 investats
 🐍 Investment statistics calculator
 https://pypi.org/project/investats/

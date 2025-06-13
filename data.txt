@@ -34,6 +34,14 @@ docker-images
 🐳 Docker images that don't deserve a separate repo
 https://hub.docker.com/u/dmotte
 ["actions","build","compose","container","containers","docker","docker-compose","docker-hub","docker-image","dockerfile","github","github-actions","image","images","workflow"]
+docker-portfwd-server
+🐳 Docker image with an OpenSSH server that can be used for local port forwarding only
+https://hub.docker.com/r/dmotte/portfwd-server
+["docker","docker-compose","docker-image","dockerfile","forward","forwarding","local","open","openssh","port","port-forwarding","private-key","proxy","pubkey","server","ssh","ssh-server","sshd","tcp","tunnel"]
+docker-portfwd-server-rootless
+🐳 Docker image that can be used for local port forwarding (rootless version)
+https://hub.docker.com/r/dmotte/portfwd-server-rootless
+["docker","docker-compose","docker-image","forward","forwarding","local","open","openssh","port","port-forwarding","private-key","proxy","pubkey","rootless","server","ssh","ssh-server","sshd","tcp","tunnel"]
 docker-portmap-client
 🐳 Docker image you can use to expose one or more TCP ports to the internet using an SSH tunnel
 https://hub.docker.com/r/dmotte/portmap-client
@@ -41,11 +49,11 @@ https://hub.docker.com/r/dmotte/portmap-client
 docker-portmap-server
 🐳 Docker image with an OpenSSH server that can be used for remote port forwarding only
 https://hub.docker.com/r/dmotte/portmap-server
-["docker","docker-compose","docker-image","dockerfile","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","server","ssh","ssh-server","sshd","tcp","tunnel"]
+["docker","docker-compose","docker-image","dockerfile","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","pubkey","remote","server","ssh","ssh-server","sshd","tcp","tunnel"]
 docker-portmap-server-rootless
 🐳 Docker image that can be used for remote port forwarding (rootless version)
 https://hub.docker.com/r/dmotte/portmap-server-rootless
-["docker","docker-compose","docker-image","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","remote","rootless","server","ssh","ssh-server","sshd","tcp","tunnel"]
+["docker","docker-compose","docker-image","expose","forward","forwarding","openssh","port","port-forwarding","portmap","private-key","pubkey","remote","rootless","server","ssh","ssh-server","sshd","tcp","tunnel"]
 docker-xfwd
 🐳 Run graphical applications in a Docker container
 https://hub.docker.com/r/dmotte/xfwd

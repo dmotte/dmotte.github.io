@@ -4,7 +4,7 @@ https://pypi.org/project/apycalc/
 ["annual","apy","apycalc","average","calculator","command","csv","invest","moving","package","percent","percentage","pip","py","pypi","python","return","value","yearly","yield"]
 bnplay
 🔊 Brown Noise player
-https://dmotte.github.io/bnplay
+https://dmotte.github.io/bnplay/
 ["brown","desktop","ffmpeg","noise","play","player","tray","web"]
 cashlog
 🐍 Cash flow tracker
@@ -66,6 +66,10 @@ jctlfmt
 🐍 Python Journalctl parsing and formatting library
 https://pypi.org/project/jctlfmt/
 ["filtering","fmt","format","formatting","jctl","journal","journalctl","journald","log","logs","message","messages","msg","parsing","python","python-3","python3","systemd","systemd-journald","text"]
+livepasv
+💹 Web-based application to visualize a real-time estimate of passive income cash flow
+https://dmotte.github.io/livepasv/
+["bulma","cash","cash-flow","cashflow","css","estimate","flow","html","income","javascript","js","live","passive","passive-income","real-time","visualizer","web","webapp"]
 misc
 🧰 Things that do not need a separate repo
 https://dmotte.github.io/misc/
@@ -116,7 +120,7 @@ https://hub.docker.com/r/dmotte/webauthn-proxy
 ["auth","authentication","authn","browser","build","container","custom","docker","docker-compose","dockerhub","http","hub","image","login","middleware","proxy","quiq","reverse","webauthn","webauthn-proxy"]
 webmedia
 🎶 Collection of HTML5 media players / viewers
-
+https://dmotte.github.io/webmedia/
 ["audio","drive","gdrive","google","html","html5","image","img","jpg","media","mp3","mp4","multimedia","music","photo","player","png","vid","video","viewer"]
 winautoclicker
 🖱 Simple Auto-Clicker CLI application for Windows, written in C++

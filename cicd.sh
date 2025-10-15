@@ -73,9 +73,16 @@ cat << EOF >> "$out_html"
         <h1 class="title">$username</h1>
 
         <div class="block">
-          &#x1F3E0; My <strong>GitHub profile</strong> page:
+          &#x1F3E0; My <strong>GitHub profile</strong>:
           <a href="https://github.com/$username">
             <strong>github.com/$username</strong>
+          </a>
+
+          <span>-</span>
+
+          &#x1F4DA; <strong>Misc</strong> docs:
+          <a href="https://$username.github.io/misc/">
+            <strong>$username.github.io/misc</strong>
           </a>
         </div>
 

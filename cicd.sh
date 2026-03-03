@@ -97,10 +97,10 @@ cat << EOF >> "$out_html"
         <div class="grid is-col-min-14 is-gap-3">
 EOF
 
-while IFS= read -r name; do
-    IFS= read -r description
-    IFS= read -r homepage
-    IFS= read -r topics
+while IFS= read -r name || [ -n "$name" ]; do
+    IFS= read -r description || [ -n "$description" ]
+    IFS= read -r homepage || [ -n "$homepage" ]
+    IFS= read -r topics || [ -n "$topics" ]
 
     emoji=$(echo "$description" | cut -d' ' -f1)
     desc_without_emoji=$(echo "$description" | cut -d' ' -f2-)

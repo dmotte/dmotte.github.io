@@ -31,7 +31,7 @@ dmotte.github.io
 https://dmotte.github.io/
 []
 docker-images
-🐳 Docker images that don't deserve a separate repo
+🐳 Docker images that do not need a dedicated repo
 https://hub.docker.com/u/dmotte
 ["actions","build","compose","container","containers","docker","docker-compose","docker-hub","docker-image","dockerfile","github","github-actions","image","images","workflow"]
 docker-portfwd-server

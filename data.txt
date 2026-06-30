@@ -17,7 +17,7 @@ cronjobs
 desktainer
 🖥 Remote desktop in a container
 https://hub.docker.com/r/dmotte/desktainer
-["arm","browser","container","debian","desktainer","desktop","docker","docker-compose","http","lxde","novnc","remote","remote-desktop","supervisor","supervisord","vnc","webapp","websockify","x11","x11vnc"]
+["arm","browser","container","debian","desktop","docker","docker-compose","http","labwc","lxqt","novnc","remote","remote-desktop","supervisor","supervisord","vnc","wayland","wayvnc","webapp","websockify"]
 desktainer-rootless
 🖥 Remote desktop in a container (rootless version)
 https://hub.docker.com/r/dmotte/desktainer-rootless

@@ -33,7 +33,7 @@ https://dmotte.github.io/
 docker-images
 🐳 Docker images that do not need a dedicated repo
 https://hub.docker.com/u/dmotte
-["actions","build","compose","container","containers","docker","docker-compose","docker-hub","docker-image","dockerfile","github","github-actions","image","images","workflow"]
+["actions","build","compose","container","containers","docker","docker-compose","docker-hub","docker-image","dockerfile","github","github-actions","image","images","sshset","userngo","workflow"]
 docker-portfwd-server
 🐳 Docker image with an OpenSSH server that can be used for local port forwarding only
 https://hub.docker.com/r/dmotte/portfwd-server
@@ -83,9 +83,9 @@ smartchg
 https://pypi.org/project/smartchg/
 ["algorithm","apy","asset","averaging","calculator","change","command","csv","dca","exchange","invest","package","pip","pypi","python","return","smart","smartchg","value","yield"]
 svcbox
-🚀 Docker image with supervisord and sshd
+🚀 Docker image for running multiple supervised services, with log management and (optional) sshd
 https://hub.docker.com/r/dmotte/svcbox
-["box","container","debian","docker","docker-compose","image","multiple","openssh","openssh-server","server","service","services","sshd","supervisor","supervisord","svc","svcbox"]
+["box","container","debian","docker","docker-compose","image","logtosupd","multiple","openssh","openssh-server","server","service","services","sshd","sshset","supervisor","supervisord","svc","svcbox","userngo"]
 svcbox-rootless
 🚀 Docker image with supervisord and sshd (rootless version)
 https://hub.docker.com/r/dmotte/svcbox-rootless

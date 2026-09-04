@@ -113,7 +113,7 @@ while IFS= read -r name; do
 
     # We don't actually use the topics in the HTML, but it's good to have them
     # stored in the text file
-    : "$topics"
+    : "${topics:?}"
 
     echo '          <div class="cell">'
     echo '            <div class="card">'

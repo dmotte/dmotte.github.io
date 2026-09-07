@@ -36,7 +36,7 @@ cat << EOF >> "$out_html"
 
     <title>$username's projects</title>
 
-    <link rel="icon" href="favicon.svg" />
+    <link rel="icon" href="favicon-home.svg" />
 
     <link
       rel="stylesheet"

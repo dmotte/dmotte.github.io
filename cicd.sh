@@ -26,7 +26,7 @@ echo "Generating $out_html"
 :> "$out_html" # Empty file
 
 # shellcheck disable=SC2129
-cat << EOF >> "$out_html"
+cat <<EOF >> "$out_html"
 <!doctype html>
 <html>
   <head>
@@ -130,7 +130,7 @@ while IFS= read -r name; do
 done < "$out_txt" >> "$out_html"
 [ -z "$name" ] || { echo 'Unexpected EOF: missing newline' >&2; exit 1; }
 
-cat << EOF >> "$out_html"
+cat <<EOF >> "$out_html"
         </div>
 
         <div class="block has-text-centered">

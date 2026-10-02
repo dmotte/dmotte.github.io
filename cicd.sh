@@ -110,9 +110,7 @@ while IFS= read -r name; do
         footer_items+=("<a href=\"$homepage\" class=\"card-footer-item\">&#x1F30D; Homepage</a>")
     footer_items+=("<a href=\"https://github.com/$username/$name\" class=\"card-footer-item\">&#x1F4C1; Repo</a>")
 
-    # We don't actually use the topics in the HTML, but it's good to have them
-    # stored in the text file
-    : "${topics:?}"
+    : "${topics:?}" # Currently unused variable
 
     echo '          <div class="cell">'
     echo '            <div class="card">'
